@@ -1,0 +1,4 @@
+remove lock = Eisu_toggle
+add shift = Henkan_Mode
+add mod4 = Muhenkan
+add control = Eisu_toggle
