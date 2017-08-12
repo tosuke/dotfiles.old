@@ -11,6 +11,16 @@ PS1='[\u@\h \W]\$ '
 # rust
 PATH="$PATH":$HOME/.cargo/bin
 
+# go
+GOPATH=$HOME/go
+PATH="$PATH":$GOPATH/bin
+
+# node
+PATH="$PATH":$HOME/.asdf/installs/nodejs/8.1.2/.npm/bin
+
 source $HOME/.asdf/asdf.sh
 
-exec fish
+case $- in
+	*i*) exec fish;;
+	  *) return;;
+esac
