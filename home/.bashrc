@@ -8,6 +8,7 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+source $HOME/.asdf/asdf.sh
 # rust
 PATH="$PATH":$HOME/.cargo/bin
 
@@ -16,9 +17,7 @@ GOPATH=$HOME/go
 PATH="$PATH":$GOPATH/bin
 
 # node
-PATH="$PATH":$HOME/.asdf/installs/nodejs/8.1.2/.npm/bin
-
-source $HOME/.asdf/asdf.sh
+PATH="$PATH":`yarn global bin`
 
 case $- in
 	*i*) exec fish;;
