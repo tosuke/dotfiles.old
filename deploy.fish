@@ -27,6 +27,11 @@ for type in $list
   deploy $type/config $HOME/.config
 end
 
+if not which nodebrew ^&1 >/dev/null
+  echo 'Install nodebrew'
+  curl -L git.io/nodebrew | perl - setup
+end
+
 if not contains fisher (functions)
   echo 'Install fisher'
   curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
