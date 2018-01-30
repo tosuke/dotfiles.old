@@ -19,6 +19,7 @@ escrotum-git
 # IM
 xcape
 uim
+skk-jisyo
 
 # Browser
 vivaldi
@@ -40,6 +41,7 @@ clang
 termite
 
 # CLI
+fish
 vim
 fzf
 xclip
