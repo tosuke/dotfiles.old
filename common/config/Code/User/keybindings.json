@@ -6,5 +6,5 @@
   {
     "key": "ctrl+g",
     "command": "extension.ghqOpen"
-  }
+  },
 ]
