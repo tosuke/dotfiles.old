@@ -1,0 +1,53 @@
+# Desktop
+accountsservice
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+xorg
+xdg-utils
+notify-osd
+libnotify
+compton
+alsa-utils
+feh
+i3-gaps
+py3status
+parcellite
+thunar
+escrotum-git
+
+# IM
+xcape
+uim
+
+# Browser
+vivaldi
+vivaldi-codecs-ffmpeg-extra-bin
+pepper-flash
+chromium-widevine
+firefox-i18n-ja
+
+# Key
+openssh
+keybase-bin
+enpass-bin
+
+# Development
+visual-studio-code-bin
+clang
+
+# Terminal
+termite
+
+# CLI
+vim
+fzf
+xclip
+jq
+
+# Fonts
+ttf-nasu
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-font-awesome

@@ -1,0 +1,6 @@
+[include]
+  path = .gitconfig.local
+[ghq]
+	root = /home/tosuke/src
+[alias]
+  loge = ! fish -c \"git log --oneline --color | emojify | less -R\"

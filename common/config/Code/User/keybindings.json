@@ -1,0 +1,10 @@
+[
+  {
+    "key": "f8",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "extension.ghqOpen"
+  }
+]
