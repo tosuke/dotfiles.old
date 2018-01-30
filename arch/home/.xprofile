@@ -40,13 +40,14 @@ fi
 xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L'; xcape -e '#65=space'
 
 # Load env
-source  ~/.env.sh
+source ~/.env.sh
+source ~/.env.arch.sh
 
 # Desktop notification server
 /usr/lib/notification-daemon-1.0/notification-daemon &
 
 # Wallpaper
-feh --bg-scale $HOME/Downloads/darli-fra_wp01_1920x1080_2.jpg &
+feh --bg-scale $WALLPAPER &
 
 # Composite manager
 compton -bc &
