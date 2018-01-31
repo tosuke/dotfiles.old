@@ -1,6 +1,8 @@
 [include]
   path = .gitconfig.local
 [ghq]
-	root = /home/tosuke/src
+  root = /home/tosuke/src
+[url "git@github.com"]
+  pushInsteadOf = https://github.com
 [alias]
   loge = ! fish -c \"git log --oneline --color | emojify | less -R\"
