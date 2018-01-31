@@ -10,3 +10,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 #lang
 ## nodejs
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+## go
+export GOPATH=$HOME
+export PATH=$HOME/bin:$PATH
