@@ -3,6 +3,6 @@ function __history_search_and_execute
   if not test -z $select
     echo \n"execting: $select"
     eval $select
-    commandline -f repaint
   end
+  commandline -f repaint
 end
