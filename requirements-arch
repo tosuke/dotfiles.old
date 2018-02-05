@@ -8,6 +8,8 @@ xdg-utils
 notify-osd
 libnotify
 compton
+vertex-themes
+numix-icon-theme-git
 alsa-utils
 feh
 i3-gaps
@@ -23,7 +25,7 @@ skk-jisyo
 
 # Browser
 vivaldi
-vivaldi-codecs-ffmpeg-extra-bin
+vivaldi-ffmpeg-codecs
 pepper-flash
 chromium-widevine
 firefox-i18n-ja
