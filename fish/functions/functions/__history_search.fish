@@ -4,12 +4,12 @@ function __history_search
 
   set -l query ( \
     for w in $HISTORY_IGNORE_WORDS; echo $w; end \
-      | string replace -r '^\^' "^$esc" \
+      | string replace -r '^\^' "^;$esc" \
       | awk '{print "("$0")"}' \
       | string join '|' \
   )
  
-   history --null \
+  builtin history --null \
     | sed -e "s/\\x0/\n;$esc/g" \
     | string trim \
     | string match -vr "$query" \
