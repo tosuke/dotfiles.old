@@ -39,50 +39,40 @@ scrollback_lines = 10000
 #scrollbar = off
 
 [colors]
-# Base16 Tomorrow Night
-# Author: Chris Kempson (http://chriskempson.com)
-
+# Hybrid Next
 foreground      = #c5c8c6
-foreground_bold = #e0e0e0
-cursor          = #e0e0e0
-background      = rgba(29, 31, 33, 0.9)
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = rgba(36, 46, 51, 0.9) # #242e33
 
-# 16 color space
-
-# Black, Gray, Silver, White
-color0  = #1d1f21
-color8  = #969896
-color7  = #c5c8c6
-color15 = #ffffff
+# Black
+color0  = #242e33
+color8  = #333333
 
 # Red
-color1  = #cc6666
+color1  = #a54242
 color9  = #cc6666
 
 # Green
-color2  = #b5bd68
+color2  = #8c9440
 color10 = #b5bd68
 
 # Yellow
-color3  = #f0c674
+color3  = #de935f
 color11 = #f0c674
 
 # Blue
 color4  = #81a2be
-color12 = #81a2be
+color12 = #99dbff
 
-# Purple
-color5  = #b294bb
+# Magenta
+color5  = #85678f
 color13 = #b294bb
 
-# Teal
-color6  = #8abeb7
+# Cyan
+color6  = #5e8d87
 color14 = #8abeb7
 
-# Extra colors
-color16 = #de935f
-color17 = #a3685a
-color18 = #282a2e
-color19 = #373b41
-color20 = #b4b7b4
-color21 = #e0e0e0
+# White
+color7  = #6c7a80
+color15 = #c5c8c6

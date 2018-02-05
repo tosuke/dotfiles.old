@@ -4,6 +4,27 @@
   "workbench.colorTheme": "Hybrid Next",
   "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    // Hybrid Next
+    "terminal.background": "#242e33",
+    "terminal.foreground": "#c5c8c6",
+    "terminal.ansiBlack": "#242e33",
+    "terminal.ansiBrightBlack": "#333333",
+    "terminal.ansiRed": "#a54242",
+    "terminal.ansiBrightRed": "#cc6666",
+    "terminal.ansiGreen": "#8c9440",
+    "terminal.ansiBrightGreen": "#b5bd68",
+    "terminal.ansiYellow": "#de935f",
+    "terminal.ansiBrightYellow": "#f0c674",
+    "terminal.ansiBlue": "#81a2be",
+    "terminal.ansiBrightBlue": "#99dbff",
+    "terminal.ansiMagenta": "#85678f",
+    "terminal.ansiBrightMagenta": "#b294bb",
+    "terminal.ansiCyan": "#5e8d87",
+    "terminal.ansiBrightCyan": "#8abeb7",
+    "terminal.ansiWhite": "#6c7a80",
+    "terminal.ansiBrightWhite": "#c5c8c6"
+  },
   "vim.insertModeKeyBindings": [
     {
       "before": [
