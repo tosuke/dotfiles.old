@@ -32,3 +32,5 @@ set list listchars=tab:\▸\-
 set hidden
 set history=50
 set virtualedit=block
+
+inoremap <silent> jj <ESC>
