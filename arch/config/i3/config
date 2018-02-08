@@ -61,8 +61,8 @@ bindsym $mod+t exec thunar
 # kill focused window
 bindsym $mod+Shift+c kill
 
-# start dmenu (a program launcher)
-bindsym $mod+p exec dmenu_run -fn "Noto Sans UI"
+# start rofi(a anything like interface)
+bindsym $mod+p exec --no-startup-id "fish $XDG_CONFIG_HOME/i3/anything.fish"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
