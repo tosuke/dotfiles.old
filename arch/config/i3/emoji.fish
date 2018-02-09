@@ -1,5 +1,5 @@
 emojify -l \
-  | rofi -dmenu -p '>' \
+  | rofi -dmenu -p '>' -sort -matching fuzzy \
   | awk '{print $2}' \
   | read -l select
 

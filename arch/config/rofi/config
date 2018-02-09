@@ -1,9 +1,10 @@
 rofi.theme: ~/.config/rofi/arthur.rasi
-rofi.matching: fuzzy
-rofi.sort: true
+rofi.matching: normal
 rofi.case-sensitive: false
-rofi.sidebar-mode: true
-rofi.kb-mode-next: Shift+Down
-rofi.kb-mode-previous: Shift+Up
+rofi.window-match-fields: class,title
+rofi.kb-row-up: Super-k
+rofi.kb-row-down: Super-j
+rofi.kb-mode-next: Super-J
+rofi.kb-mode-previous: Super-K
 rofi.run-command: fish -c '{cmd}'
 rofi.run-list-command: 'fish -c functions'
