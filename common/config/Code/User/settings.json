@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 14,
-  "editor.fontFamily": "NasuM, 'Icons'",
+  "editor.fontFamily": "NasuM",
   "workbench.colorTheme": "Hybrid Next",
   "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,

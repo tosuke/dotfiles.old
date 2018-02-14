@@ -66,7 +66,7 @@ configuration {
     highlight:     underline bold #ffffff;
 
     transparent: rgba(0,0,0,0);
-    font: "Noto Sans UI 12";
+    font: "Source Code Pro 10";
 }
 #window {
     location: center;
@@ -95,7 +95,7 @@ configuration {
     background-color: @tcyan;
 }
 #message {
-    font: "Noto Sans UI 12";
+    font: "Source Code Pro 8";
     color: @black;
 }
 
@@ -106,7 +106,7 @@ configuration {
     border: 2px 2px 2px 2px;
     border-radius:  15px 15px 0px 0px;
     border-color: @foreground;
-    font: "Noto Sans UI 14";
+    font: "Source Code Pro 18";
 }
 #entry,prompt,case-indicator {
     text-font: inherit;
@@ -174,7 +174,7 @@ configuration {
     border: 0px 0px 0px 0px;
 }
 #button {
-    font: "Icons 25";
+    font: "FontAwesome 22";
     padding: 6px;
     border: 2px 0px 2px 2px;
     border-radius: 4px 0px 0px 4px;
