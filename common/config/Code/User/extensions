@@ -4,6 +4,7 @@ eg2.tslint
 esbenp.prettier-vscode
 lukehoban.Go
 marchrock.vscode-ghq
+mikestead.dotenv
 ms-python.python
 octref.vetur
 robertohuertasm.vscode-icons
