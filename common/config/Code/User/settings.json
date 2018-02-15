@@ -36,4 +36,12 @@
       ]
     }
   ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "autoFix": true,
+      "language": "vue"
+    }
+  ],
 }
